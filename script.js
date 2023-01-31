@@ -1,10 +1,16 @@
 var numSecreto = 581 
-var chute = prompt('Digite um numero entre 1 e 1000')
 
-if (chute == numSecreto) {
-   alert ('você acertou o numero secreto')
-}
+while (chute != numSecreto) {
+   var chute = prompt('Digite um numero entre 1 e 1000')
 
-else {
-   alert ('você errou o numero secreto')
+   if (chute == numSecreto) {
+      alert ('você acertou o numero secreto')
+   }
+   else if (chute < numSecreto) {
+      alert ('errou... o numero é maior')
+   }
+
+   else if (chute > numSecreto) {
+      alert ('errou... o numero é menor')
+   }
 }
