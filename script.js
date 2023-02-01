@@ -1,7 +1,8 @@
 
-var numSecreto = parseInt (Math.random()*1001);  //"1001 multiplicando pelo math.rando que é igual à 0,99999"
-var tentativas = 0
-var tentativasRest = 15
+var numSecreto = parseInt (Math.random()*1001);
+var tentativasRest = 15;
+var tentativas = 0;
+
 
    while (chute != numSecreto) {
       var chute = prompt('Digite um numero entre 0 e 1000')
