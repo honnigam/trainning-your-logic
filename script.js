@@ -1,5 +1,5 @@
 
-var numSecreto = 500 // parseInt (Math.random()*1001);  //"1001 multiplicando pelo math.rando que é igual à 0,99999"
+var numSecreto = parseInt (Math.random()*1001);  //"1001 multiplicando pelo math.rando que é igual à 0,99999"
 var tentativas = 0
 var tentativasRest = 15
 
