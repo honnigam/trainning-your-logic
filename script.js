@@ -18,7 +18,8 @@ var tentativasRest = 15
       } 
 
       else if (chute < numSecreto) {
-         alert ('errou... o numero é maior que ' + chute + '\n' +'você deu ' + tentativas + ' chutes até agora' + '\n' +  'você possui: ' + tentativasRest + ' tentativas')
+         alert ('errou... o numero é maior que ' + chute + '\n' +
+         'chute: ' + tentativas + ' de ' + tentativasRest + ' restantes')
       }
 
       else if (chute > numSecreto) {
